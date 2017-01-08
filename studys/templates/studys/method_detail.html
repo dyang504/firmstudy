@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% load markup %}
+{% block content %}
+<h1>{{ method.title}}</h1>
+{% autoescape off %}
+    {{method.content}}
+{% endautoescape %}
+{% endblock %}

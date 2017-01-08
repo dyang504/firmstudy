@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% load staticfiles %}
+
+{% block content %}
+    <h1>{{ article.title}}</h1>
+    {% autoescape off %}
+    {{article.content}}
+    {% endautoescape %}
+{% endblock %}

@@ -1,0 +1,82 @@
+body{
+	body {
+  font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans","wenquanyi micro hei","Hiragino Sans GB", "Hiragino Sans GB W3", Arial, sans-serif;
+}
+}
+ul li, nav li{
+list-style-type:none;
+}
+h3{
+    color:#000000;
+    font-family:'Helvetica Neue', 'Helvetica', 'Microsoft Yahei', sans-serif;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+h4 a{
+text-decoration: none;
+font-family: 'Helvetica Neue', 'Helvetica', 'Microsoft Yahei', sans-serif;
+font-size: 1em;
+font-weight: 700;
+color: #000;
+}
+.padding{
+	padding:1em;
+}
+/* Header menu*/
+.logo{
+	margin-left: 2em; 
+}
+.pure-menu-horizontal{
+	background-color: #c9c9c9;
+	height: 3em;
+	text-align: right;
+}
+.pure-menu-item{
+	background: 
+}
+.pure-menu-link{
+	color:#fff;
+}
+.home-menu li a:hover,
+.home-menu li a:focus {
+    background: none;
+    border: none;
+    color: #0D1E0A;
+}
+
+/*
+ * -- CONTENT STYLES --
+ * This represents the content area (everything below the blue section)
+ */
+.container{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 70%; 
+}
+
+.content-container{
+	margin:1em; 
+	padding-top:2em; 
+	padding-bottom:1em; 
+}
+.footer{
+	background-color: #2A97C0;
+	color: #fff;
+	text-align: left;
+	margin-top: 1em;
+	padding:1em;
+}
+.margin{
+	margin-left:5em; 
+}
+.light_grey{
+	color: #AEBACA;
+	font-size: 0.75em;
+}
+.center{
+	text-align: center;
+}
+.padding-left{
+	padding-left: 2em;
+}

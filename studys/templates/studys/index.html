@@ -1,0 +1,22 @@
+
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block content %}
+{% if latest_article %}
+<ul>
+    {% for article in latest_article %}
+    <li>
+    <h4><a href="{% url 'article_detail' article.id %}">{{article.title}}</a></h4>
+        <p class="light_grey padding-left">{{article.time}} | {{article.categorys}}</p>
+        {% autoescape off %}
+        {{article.content|truncatewords:'7'}}
+        {% endautoescape %}
+    </li>
+    <hr/>
+    {% endfor %}
+</ul>
+{% else %}
+    <p>No articles available.</p>
+{% endif %}
+{% endblock %}
